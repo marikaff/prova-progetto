@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+   
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes4Unical</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1> <a href="home.html">NOTES4UNICAL </a></h1>
+        </div>
+        <nav>
+            <a href="#">Preferiti</a>
+            <a href="#">Profilo 👤</a>
+        </nav>
+    </header>
+    <main>
+        <div class="search-container">
+            <input type="text" placeholder="Cerca documenti">
+            <button class="filters" onclick="toggleFilters()">⚙️ Filtri</button>
+            <button class="search-btn">🔍</button>
+        </div>
+        <section class="recent-similar">
+            <h2>Visti di recente e simili</h2>
+            <div class="document-list">
+                <div class="document">
+                    <div class="thumbnail"></div>
+                    <p>Ingegneria software appunti</p>
+                    <p>Alma Mater Studiorum – Università di Bologna</p>
+                    <p>⭐⭐☆☆☆</p>
+                </div>
+                <div class="document">
+                    <div class="thumbnail"></div>
+                    <p>Design Patterns: Elementi per il riuso di software a oggetti</p>
+                    <p>Università della Calabria (UNICAL)</p>
+                    <p>⭐⭐⭐☆☆</p>
+                </div>
+                <div class="document">
+                    <div class="thumbnail"></div>
+                    <p>Appunti completi corso Basi di dati A.A. 2022-2023</p>
+                    <p>Università della Calabria (UNICAL)</p>
+                    <p>⭐⭐⭐⭐☆</p>
+                </div>
+                <div class="document">
+                    <div class="thumbnail"></div>
+                    <p>Ingegneria software appunti</p>
+                    <p>Alma Mater Studiorum – Università di Bologna</p>
+                    <p>⭐⭐☆☆☆</p>
+                </div>
+                <div class="document">
+                    <div class="thumbnail"></div>
+                    <p>Design Patterns: Elementi per il riuso di software a oggetti</p>
+                    <p>Università della Calabria (UNICAL)</p>
+                    <p>⭐⭐⭐☆☆</p>
+                </div>
+            </div>
+        </section>
+        <div class="upload-icon">
+            <button class="upload-btn">📤 Carica documento</button>
+            <input type="file" id="fileInput" style="display: none;">
+        </div>
+        <div id="fileList"></div>
+        <script src="home.js"></script> 
+    </main>
+</body>
+</html>
