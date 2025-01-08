@@ -8,7 +8,7 @@ body {
 
 /* Header */
 header {
-    background-color: #801c14;
+    background-color: #800020;
     color: white;
     padding: 10px 20px;
     display: flex;
@@ -50,7 +50,7 @@ header nav a {
 .search-container .search-btn,
 .search-container .upload-btn, .filters{
     padding: 10px 20px;
-    background-color: #801c14;
+    background-color: #800020;
     color: white;
     border: none;
     border-radius: 4px;
@@ -103,7 +103,7 @@ header nav a {
 
 .upload-icon .upload-btn {
     padding: 10px 20px;
-    background-color: #801c14;
+    background-color: #800020;
     color: white;
     border: none;
     border-radius: 4px;
@@ -116,7 +116,7 @@ header nav a {
 
 /* Stile per il pulsante Filtri */
 .filters {
-    background-color: #801c14; /* Colore di base */
+    background-color: #800020; /* Colore di base */
     color: white;
     border: none;
     padding: 10px 16px;
