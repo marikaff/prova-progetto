@@ -1,0 +1,97 @@
+/* Impostazioni di base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #800020; /* Bordeaux */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Contenitore login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-box {
+    background: #fff;
+    color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Titolo */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #800020; /* Bordeaux */
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"], 
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Pulsante */
+.btn {
+    background-color: #800020; /* Bordeaux */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #990024;
+}
+
+/* Collegamenti */
+.links {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+a {
+    color: #800020;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
