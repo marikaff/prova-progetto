@@ -6,30 +6,9 @@ body {
     background-color: #f5f5f5;
 }
 
-/* Header */
-header {
-    background-color: #800020;
-    color: white;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-a {color: white; /* Imposta il colore del testo bianco */
-    text-decoration: none; /* Rimuove la sottolineatura */} 
-
-  a:visited {
-    color: white; /* Imposta il colore bianco anche per i link già visitati */
-  }
-
-h1{color: white;}
-
-header nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-    font-weight: bold;
+/* Imposta un padding-top globale per evitare che il contenuto si sovrapponga all'header */
+body {
+    padding-top: 70px; /* L'altezza dell'header */
 }
 
 /* Barra di ricerca */
@@ -139,3 +118,58 @@ header nav a {
     cursor: pointer;
 }
 
+
+
+
+/* Header */
+header {
+    background-color: #800020; /* Bordeaux */
+    color: white;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Fissa l'header in alto */
+    top: 0; /* Posiziona l'header in alto */
+    left: 0;
+    width: 98%; /* L'header occupa tutta la larghezza della pagina */
+    z-index: 10; /* Assicurati che sia sopra gli altri elementi */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Aggiungi un'ombra per distinguere l'header */
+}
+
+/* Stile per il logo e i link */
+header .logo h1 {
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+header .logo a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Imposta un padding-top globale per evitare che il contenuto si sovrapponga all'header */
+body {
+    padding-top: 70px; /* L'altezza dell'header */
+}
+
+/* RESPONSIVE 
+@media (max-width: 768px) {
+    header nav {
+        display: flex;
+        flex-direction: column; /* Link sotto il logo 
+        align-items: flex-start;
+    }
+    */
