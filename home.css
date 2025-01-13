@@ -28,7 +28,7 @@ body {
 
 .search-container .search-btn,
 .search-container .upload-btn, .filters{
-    padding: 10px 20px;
+    padding: 5px 20px;
     background-color: #800020;
     color: white;
     border: none;

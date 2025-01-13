@@ -65,7 +65,32 @@
             <input type="file" id="fileInput" style="display: none;">
         </div>
         <div id="fileList"></div>
-        <script src="home.js"></script> 
+        
+        <!-- Popup -->
+        <link rel="stylesheet" href="popup.css">
+        <div id="popup" class="popup hidden">
+            <div class="popup-content">
+                <h2>Dettagli Documento</h2>
+                <form id="popupForm">
+                    <div class="form-group">
+                        <label for="docName">Nome Documento:</label>
+                        <input type="text" id="docName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Materia:</label>
+                        <input type="text" id="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Descrizione:</label>
+                        <textarea id="description" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Salva</button>
+                </form>
+                <button id="closePopup" class="btn">Chiudi</button>
+            </div>
+        </div>
+        
+        <script src="home.js"></script>
     </main>
 </body>
 </html>
